@@ -14,13 +14,11 @@
 		</figure>
 			<p><router-link to="/telebista" class="btn">Telebista saioak ikusi</router-link></p>
 			<p><router-link to="/irratia" class="btn">Irrati saioak entzun</router-link></p>
-			<!-- <p><a href="#" class="btn">Telebista saioak ikusi</a></p>
-			<p><a href="#" class="btn">Irrati saioak entzun</a></p> -->
 		</article>
 		<article class="authors">
-			<p><a href="https://twitter.com/Sergixnet">Sergio Peña-k</a> egina</p>
-			<p><a href="https://twitter.com/erralin">Mikel Larreategi-k</a> Garatutako <a href="https://erral.github.io/eitbapi/#/">Eitb API-ari</a> esker</p>
-			<p>Kodea <i class="fa fa-github" aria-hidden="true"></i> <a href="#">githuben eskuragarri</a></p>
+			<p><a href="https://twitter.com/Sergixnet">Sergio Peña-k</a> sortuta</p>
+			<p><a href="https://twitter.com/erralin">Mikel Larreategi-k</a> garatutako <a href="https://erral.github.io/eitbapi/#/">Eitb API-ari</a> esker</p>
+			<p>Kodea <i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/Sergiop79/eitbjs">githuben eskuragarri</a></p>
 		</article>
 	</div>
 </template>
