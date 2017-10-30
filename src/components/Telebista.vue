@@ -42,7 +42,7 @@
 		components: {Loader, Error},
 		methods: {
 			getTvLists() {
-				axios.get('https://crossorigin.me/http://still-castle-99749.herokuapp.com/playlist')
+				axios.get('http://still-castle-99749.herokuapp.com/playlist')
 					.then((response) => {
 						this.loading = false;
 						this.tvLists = response.data.member

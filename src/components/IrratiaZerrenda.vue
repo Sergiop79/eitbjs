@@ -40,7 +40,7 @@
 		components: {Loader, Error, AudioPlayer},
 		methods: {
 			getRadioList() {
-				axios.get(`https://crossorigin.me/${this.id}`)
+				axios.get(`${this.id}`)
 					.then(response => {
 						this.loading = false;
 						this.radioList = response.data.member.map(audio => {

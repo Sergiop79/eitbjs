@@ -43,7 +43,7 @@
 		props: ['title'],
 		methods: {
 			getRadioLists() {
-				axios.get('https://crossorigin.me/http://still-castle-99749.herokuapp.com/radio')
+				axios.get('http://still-castle-99749.herokuapp.com/radio')
 					.then((response) => {
 						this.loading = false;
 						this.radioLists = response.data.member
