@@ -39,7 +39,7 @@
 		},
 		methods: {
 			getShow() {
-				axios.get(`${this.id}`)
+				axios.get(`${this.id}`.slice(5))
 					.then(response => {
 						this.loading = false;
 
